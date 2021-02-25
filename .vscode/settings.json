@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+		"particule_system.h": "c",
+		"tools.h": "c",
+		"render_struct.h": "c",
+		"render.h": "c",
+		"linmath.h": "c",
+		"ios": "c",
+		"glad.h": "c",
+		"assert.h": "c"
+	}
+}
