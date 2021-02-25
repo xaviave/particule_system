@@ -7,6 +7,8 @@
 		"linmath.h": "c",
 		"ios": "c",
 		"glad.h": "c",
-		"assert.h": "c"
+		"assert.h": "c",
+		"__bit_reference": "c",
+		"algorithm": "c"
 	}
 }

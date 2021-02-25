@@ -6,7 +6,7 @@
 #    By: xamartin <xamartin@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/17 16:31:52 by xamartin          #+#    #+#              #
-#    Updated: 2021/02/24 16:38:55 by xamartin         ###   ########lyon.fr    #
+#    Updated: 2021/02/25 17:12:45 by xamartin         ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,7 +30,10 @@ GCC_LIBS = -L $(LIB_PATH)/glfw/src -lglfw3 -framework AppKit -framework OpenGL -
 
 # FILES
 SRC_NAME =	main.c \
+			render/clock.c \
+			render/events.c \
 			render/callback.c \
+			render/init/matrix.c \
 			render/init/shader.c \
 			render/init/graphic.c \
 			tools/device_info.c \

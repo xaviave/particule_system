@@ -6,7 +6,7 @@
 /*   By: xamartin <xamartin@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/17 16:26:12 by xamartin          #+#    #+#             */
-/*   Updated: 2021/02/25 10:42:28 by xamartin         ###   ########lyon.fr   */
+/*   Updated: 2021/02/25 14:09:16 by xamartin         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,6 +46,9 @@
 # define H 720
 
 # define SHADER_READ 1000
+
+#define ToRadian(x) ((x) * M_PI / 180.0f)
+#define ToDegree(x) ((x) * 180.0f / M_PI)
 
 /*
 ** Custom Headers
